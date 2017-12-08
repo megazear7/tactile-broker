@@ -1,5 +1,5 @@
 {
-  "name": "tactile-mz",
+  "name": "tactile-broker",
   "version": "1.0.1",
   "description": "A lightweight framework for building hierarchical content based websites.",
   "main": "index.js",
