@@ -1,9 +1,8 @@
 var fs = require('fs');
 var Handlebars = require('Handlebars');
 const { join } = require('path')
-const componentModels = require('../components/components.js')
 
-var render = function(path) {
+var render = function(path, componentModels) {
     var page = JSON.parse(fs.readFileSync('content.json', 'utf8'));
     var home = page;
     home.isHome = true;
